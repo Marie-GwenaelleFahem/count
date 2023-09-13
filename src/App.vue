@@ -16,7 +16,9 @@ function addMoney() {
   <header>
     <div class="wrapper">
       <h1>Click down below to hide money !</h1>
-      <button @click="addMoney">Money hidden : {{ money }} $</button>
+      <div class="button">
+        <button @click="addMoney">Money hidden : {{ money }} $</button>
+      </div>
     </div>
   </header>
 </template>
@@ -64,6 +66,15 @@ header {
     padding: 20px;
     color: none;
     border: 2px solid white;
+    color: black;
+    background: white;
+    font-size: large;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+  
   }
 
 }
