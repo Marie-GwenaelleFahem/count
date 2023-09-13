@@ -64,7 +64,6 @@ header {
     margin-top: 30px;
     width: fit-content;
     padding: 20px;
-    color: none;
     border: 2px solid white;
     color: black;
     background: white;
@@ -74,7 +73,7 @@ header {
   .button {
     display: flex;
     justify-content: center;
-  
+
   }
 
 }
